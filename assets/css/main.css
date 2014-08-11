@@ -7,8 +7,140 @@ html, html a {
 
 body {
   font-size: 16px;
+  font-family: "Akzidenz";
 }
 
 p {
   margin: 0;
 }
+
+h1 {
+  font-size: 18px;
+  margin: 0;
+}
+
+/*Header*/
+
+#header {
+  display: block;
+  padding: 14px 0px;
+  text-align: center;
+  background-color: #00413f;
+}
+
+#header h1 {
+  color: #00e0b8;
+}
+
+#header p {
+  position: absolute;
+  right: 25px;
+  top: 19px;
+  font-family: "AvantGardeGothic";
+  font-size: 12px;
+  color: #ffffff;
+}
+
+.arrow {
+  color: #00e0b8;
+}
+
+/*Hero Container*/
+
+#hero {
+  background-color: #00e0b8;
+  background-image: url('../img/background-dots.png');
+  background-repeat: repeat-x;
+  padding-bottom: 57px;
+}
+
+.hero-container {
+  max-width: 297px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.hero-container img {
+  margin-top: 50px;
+}
+
+/*Hero Information*/
+
+.wpd-information{
+  margin: 21px 0 10px 0;
+  font-family: "AvantGardeGothic";
+  color: #00403f;
+}
+
+.date {
+  float: left;
+  margin: 0 10px 0 9px;
+  padding-right: 9px;
+  border-right: 2px solid #009e99;
+}
+
+.date h2 {
+  font-size: 14.22px;
+  margin: 0;
+}
+
+.date h1 {
+  font-size: 26px;
+}
+
+.tagline {
+  font-size: 21px;
+  padding-top: 1px;
+}
+
+/*Hero Email Field*/
+
+div.mc-field-group input {
+  width: 206px;
+  height: 35px;
+  float: left;
+  padding-left: 11px;
+  font-family: Arial;
+  font-size: 12px;
+  color: #999999;
+  border: none;
+  outline: none;
+  background: white;
+}
+
+input.button {
+  width: 79px;
+  height: 37px;
+  font-family: "Akzidenz";
+  font-size: 12px;
+  color: #ffffff;
+  border: none;
+  outline: none;
+  background: #ff6943;
+}
+
+/*Hero Social Buttons*/
+
+.social-buttons {
+  margin-top: 13px;
+  font-family: "Akzidenz";
+  font-size: 12px;
+  color: white;
+  text-align: center;
+  -webkit-font-smoothing: initial;
+}
+
+.social-buttons p:first-child {
+  display: inline-block;
+  margin-right: 7.9px;
+  padding: 10.5px 23.5px;
+  background: #4c63ea;
+}
+
+.social-buttons p:last-child {
+  padding: 10.5px 31px;
+  display: inline-block;
+  background: #46a1ff;
+}
+
+

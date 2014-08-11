@@ -1,0 +1,19 @@
+@font-face {
+    font-family: 'Akzidenz';
+    src: url('../fonts/akzigbb_.eot');
+    src: url('../fonts/akzigbb_.eot') format('embedded-opentype'),
+         url('../fonts/akzigbb_.woff') format('woff'),
+         url('../fonts/akzigbb_.ttf') format('truetype'),
+         url('../fonts/akzigbb_.svg#AkzidenzGroteskBEBold') format('svg');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'AvantGardeGothic';
+    src: url('../fonts/itcavantgardestd-bold1.eot');
+    src: url('../fonts/itcavantgardestd-bold1.eot') format('embedded-opentype'),
+         url('../fonts/itcavantgardestd-bold1.woff') format('woff'),
+         url('../fonts/itcavantgardestd-bold1.ttf') format('truetype'),
+         url('../fonts/itcavantgardestd-bold1.svg#ITCAvantGardeGothicStdBold') format('svg');
+    font-weight: bold;
+}
