@@ -1,7 +1,7 @@
 /*General*/
 
 html, html a {
-  -webkit-font-smoothing: antialiased !important;
+  -webkit-font-smoothing: antialiased;
   text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
 }
 
@@ -51,30 +51,32 @@ h1 {
   background-color: #00e0b8;
   background-image: url('../img/background-dots.png');
   background-repeat: repeat-x;
+  padding-top: 50px;
   padding-bottom: 57px;
 }
 
 .hero-container {
-  max-width: 297px;
+  max-width: 350px;
   width: 100%;
   margin: 0 auto;
 }
 
 .hero-container img {
-  margin-top: 50px;
+  display: block;
+  margin: 0 auto;
 }
 
 /*Hero Information*/
 
 .wpd-information{
-  margin: 21px 0 10px 0;
+  margin: 21px 0 21px 0;
   font-family: "AvantGardeGothic";
   color: #00403f;
 }
 
 .date {
   float: left;
-  margin: 0 10px 0 9px;
+  margin: 0 10px 0 36px;
   padding-right: 9px;
   border-right: 2px solid #009e99;
 }
@@ -96,27 +98,29 @@ h1 {
 /*Hero Email Field*/
 
 div.mc-field-group input {
-  width: 206px;
-  height: 35px;
+  width: 245px;
+  height: 42px;
   float: left;
   padding-left: 11px;
   font-family: Arial;
-  font-size: 12px;
+  font-size: 14px;
   color: #999999;
   border: none;
   outline: none;
   background: white;
+  -webkit-font-smoothing: antialiased;
 }
 
 input.button {
-  width: 79px;
-  height: 37px;
+  width: 93px;
+  height: 44px;
   font-family: "Akzidenz";
-  font-size: 12px;
+  font-size: 14.5px;
   color: #ffffff;
   border: none;
   outline: none;
   background: #ff6943;
+  -webkit-font-smoothing: antialiased;
 }
 
 /*Hero Social Buttons*/
@@ -124,23 +128,25 @@ input.button {
 .social-buttons {
   margin-top: 13px;
   font-family: "Akzidenz";
-  font-size: 12px;
-  color: white;
+  font-size: 14px;
   text-align: center;
-  -webkit-font-smoothing: initial;
 }
 
-.social-buttons p:first-child {
+.facebook-share {
   display: inline-block;
-  margin-right: 7.9px;
-  padding: 10.5px 23.5px;
+  margin-right: 6px;
+  padding: 12px 19.5px;
   background: #4c63ea;
+  text-decoration: none;
+  color: #ffffff;
 }
 
-.social-buttons p:last-child {
-  padding: 10.5px 31px;
+.twitter-share {
   display: inline-block;
+  padding: 12px 30px;
   background: #46a1ff;
+  text-decoration: none;
+  color: #ffffff;
 }
 
 
