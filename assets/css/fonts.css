@@ -1,3 +1,4 @@
+/*Akzidenz Bold*/
 @font-face {
     font-family: 'Akzidenz';
     src: url('../fonts/akzigbb_.eot');
@@ -8,6 +9,18 @@
     font-weight: bold;
 }
 
+/*Akzidenz Normal*/
+@font-face {
+    font-family: 'AkzidenzNormal';
+    src: url('../fonts/akzin.eot');
+    src: url('../fonts/akzin.eot') format('embedded-opentype'),
+         url('../fonts/akzin.woff') format('woff'),
+         url('../fonts/akzin.ttf') format('truetype'),
+         url('../fonts/akzin.svg#AkzidenzNormal') format('svg');
+    font-weight: normal;
+}
+
+/*AvantGardeGothic*/
 @font-face {
     font-family: 'AvantGardeGothic';
     src: url('../fonts/itcavantgardestd-bold1.eot');

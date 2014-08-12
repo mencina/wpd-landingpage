@@ -12,10 +12,12 @@ body {
 
 p {
   margin: 0;
+  -webkit-margin-before: 0;
+  -webkit-margin-after: 0;
 }
 
 h1 {
-  font-size: 18px;
+  font-size: 17px;
   margin: 0;
 }
 
@@ -149,4 +151,108 @@ input.button {
   color: #ffffff;
 }
 
+/*Organizers*/
 
+#organizers {
+  text-align: center;
+}
+
+#organizers a {
+  cursor: pointer;
+}
+
+#organizers img {
+  display: inline-block;
+  margin-right: 35px;
+}
+
+#organizers p {
+  display: inline-block;
+  margin-right: 35px;
+  vertical-align: 26px;
+  font-family: "AvantGardeGothic";
+  font-size: 14px;
+  color: #00403f;
+}
+
+/*Hangouts*/
+
+#hangouts {
+  margin-top: -4px;
+  text-align: center;
+  background: #ebebeb;
+  font-size: 0;
+  color: #ffffff;
+}
+
+#hangouts > h1 {
+  padding: 18.5px 27px;
+  color: #333333;
+}
+
+#hangouts img {
+  border-radius: 100%;
+  float: left;
+  padding: 11px;
+}
+
+
+#katherine-heigl {
+  background: #ea00bd;
+}
+
+#rachel-ray {
+  background: #caa500;
+}
+
+#wendy-diamond {
+  background: #ff6971;
+}
+
+/*Ambassador*/
+
+.ambassador {
+  display: inline-block;
+  width: 33.333333%;
+  text-align: left;
+}
+
+.ambassador h1 {
+  margin-top: 33px;
+  padding: 0 15px 0 11px;
+  font-family: "Akzidenz"!important;
+  font-size: 14px;
+  color: #ffffff;
+}
+
+.ambassador h2 {
+  margin: 0 0 8px 0;
+}
+
+.ambassador h2, p {
+  font-size: 14px;
+  font-family: "AkzidenzNormal";
+  padding: 0 15px 0 11px;
+}
+
+.ambassador > p {
+  padding-bottom: 15px;
+}
+
+.ambassador-hangout {
+  clear: both;
+  background: rgba(0, 0, 0, 0.1);
+}
+
+/*Footer*/
+
+#footer {
+  text-align: center;
+}
+
+#footer p {
+  margin: 12.5px 0;
+  font-family: Arial;
+  font-size: 10px;
+  color: #666666;
+}
