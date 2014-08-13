@@ -272,9 +272,26 @@ input.button {
 }
 
 #footer p {
-  padding: 12.5px 0;
+  padding: 8px 0;
+  padding-bottom: 25px;
   font-family: Arial;
   font-size: 10px;
   color: #666666;
-  /*background: #ffffff;*/ /*REVERT CHANGE!!!!!*/
+  /*background: #ffffff;*/ /*REVERT CHANGE!*/
+}
+
+.creative-commons {
+  /*background: #ffffff;*/ /*REVERT CHANGE!*/
+  padding-top: 18px;
+}
+
+.creative-commons span, .creative-commons a {
+  font-family: Arial;
+  font-size: 10px;
+  color: #666666;
+}
+
+.creative-commons a:last-child {
+  text-decoration: underline;
+  color: #666666;
 }
