@@ -276,5 +276,5 @@ input.button {
   font-family: Arial;
   font-size: 10px;
   color: #666666;
-  background: #ffffff;
+  /*background: #ffffff;*/ /*REVERT CHANGE!!!!!*/
 }
