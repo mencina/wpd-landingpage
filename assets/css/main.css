@@ -3,32 +3,17 @@
 html, html a {
   -webkit-font-smoothing: antialiased!important;
   text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
+  text-decoration: none;
+  color: inherit;
 }
 
 body {
-  font-size: 16px;
   font-family: "Akzidenz";
+  background: #ebebeb;
 }
 
-h1 {
-  font-size: 17px;
+h1, h2, p {
   margin: 0;
-}
-
-h2 {
-  margin: 0;
-}
-
-p {
-  margin: 0;
-  -webkit-margin-before: 0;
-  -webkit-margin-after: 0;
-}
-
-a {
-  text-decoration: none;
-  cursor: pointer;
-  color: inherit;
 }
 
 /*Classes Added Via JS*/
@@ -40,13 +25,13 @@ a {
 /*Header*/
 
 #header {
-  display: block;
   padding: 14px 0px;
   text-align: center;
-  background-color: #00413f;
+  background: #00413f;
 }
 
 #header h1 {
+  font-size: 17px;
   color: #00e0b8;
 }
 
@@ -66,7 +51,7 @@ a {
 /*Hero Container*/
 
 #hero {
-  background-color: #00e0b8;
+  background: #00e0b8;
   background-image: url('../img/background-dots.png');
   background-repeat: repeat-x;
   padding-top: 50px;
@@ -108,8 +93,11 @@ a {
 }
 
 .tagline {
-  font-size: 21px;
   padding-top: 1px;
+}
+
+.tagline h1 {
+  font-size: 17px;
 }
 
 /*Hero Email Field*/
@@ -144,9 +132,9 @@ input.button {
 
 .social-buttons {
   margin-top: 13px;
-  font-family: "Akzidenz";
   font-size: 14px;
   text-align: center;
+  color: #ffffff;
 }
 
 .facebook-share {
@@ -154,33 +142,31 @@ input.button {
   margin-right: 6px;
   padding: 12px 19.5px;
   background: #4c63ea;
-  text-decoration: none;
-  color: #ffffff;
 }
 
 .twitter-share {
   display: inline-block;
   padding: 12px 30px;
   background: #46a1ff;
-  text-decoration: none;
-  color: #ffffff;
 }
 
 /*Organizers*/
 
 #organizers {
+  background: #ffffff;
   text-align: center;
 }
 
 #organizers img {
   display: inline-block;
   margin-right: 35px;
+  margin-bottom: -3px;
 }
 
 #organizers p {
   display: inline-block;
   margin-right: 35px;
-  vertical-align: 26px;
+  vertical-align: 23px;
   font-family: "AvantGardeGothic";
   font-size: 14px;
   color: #00403f;
@@ -189,15 +175,14 @@ input.button {
 /*Hangouts*/
 
 #hangouts {
-  margin-top: -4px;
   text-align: center;
-  background: #ebebeb;
-  font-size: 0;
+  font-size: 0; /*fix inline-block margins*/
   color: #ffffff;
 }
 
 #hangouts > h1 {
-  padding: 18.5px 27px;
+  padding: 18px 0px 20px 0px;
+  font-size: 17px;
   color: #333333;
 }
 
@@ -227,22 +212,19 @@ input.button {
   padding: 11px;
 }
 
+.ambassador h1, .ambassador h2, .ambassador p {
+  padding: 0 15px 0 11px;
+  font-family: "AkzidenzNormal";
+  font-size: 14px;
+}
+
 .ambassador h1 {
   margin-top: 33px;
-  padding: 0 15px 0 11px;
-  font-size: 14px;
-  color: #ffffff;
+  font-family: "Akzidenz";
 }
 
-.ambassador h2, p {
-  font-size: 14px;
-  font-family: "AkzidenzNormal";
-  padding: 0 15px 0 11px;
-}
-
-.ambassador > p {
-  padding-bottom: 15px;
-  margin-top: 8px;
+.ambassador p {
+  margin: 8px 0 15px 0;
 }
 
 /*Hangout Button*/
@@ -253,11 +235,33 @@ input.button {
   margin-top: 26px;
   margin-bottom: 28px;
   width: 341px;
-  padding: 21px 0;
+  padding: 2.5px 0;
   background: #f63324;
 }
 
-.hangout-button p, .hangout-button h1 {
+.hangout-button h1 {
+  vertical-align: 30%;
+  padding-left: 10px;
+  padding-right: 6px;
+  font-family: "Akzidenz";
+  font-size: 14px;
+}
+
+.hangout-button h2 {
+  font-family: "AkzidenzNormal";
+  font-size: 32px;
+  font-weight: normal;
+}
+
+.hangout-button p {
+  vertical-align: 30%;
+  padding-left: 6px;
+  border-left: 1px solid #ffffff;
+  font-family: "AkzidenzNormal";
+  font-size: 14px;
+}
+
+.hangout-button p, .hangout-button h1, .hangout-button h2 {
   display: inline-block;
 }
 
@@ -268,8 +272,9 @@ input.button {
 }
 
 #footer p {
-  margin: 12.5px 0;
+  padding: 12.5px 0;
   font-family: Arial;
   font-size: 10px;
   color: #666666;
+  background: #ffffff;
 }
