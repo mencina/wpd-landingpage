@@ -44,42 +44,38 @@ h1, h2, p {
   color: #ffffff;
 }
 
-.arrow {
-  color: #00e0b8;
-}
-
 /*Hero Container*/
 
 #hero {
   background: #00e0b8;
   background-image: url('../img/background-dots.png');
+  background-size: 1024px 272px;
   background-repeat: repeat-x;
   padding-top: 50px;
   padding-bottom: 57px;
 }
 
 .hero-container {
-  max-width: 350px;
-  width: 100%;
+  max-width: 340px;
   margin: 0 auto;
 }
 
 .hero-container img {
-  display: block;
-  margin: 0 auto;
+  width: 100%;
 }
 
 /*Hero Information*/
 
 .wpd-information{
-  margin: 21px 0 21px 0;
+  margin: 19px 0 20px 0;
   font-family: "AvantGardeGothic";
   color: #00403f;
 }
 
 .date {
   float: left;
-  margin: 0 10px 0 36px;
+  margin-left: 30px;
+  margin-right: 9px;
   padding-right: 9px;
   border-right: 2px solid #009e99;
 }
@@ -92,21 +88,21 @@ h1, h2, p {
   font-size: 26px;
 }
 
-.tagline {
-  padding-top: 1px;
+.tagline h1 {
+  font-size: 19px;
 }
 
-.tagline h1 {
-  font-size: 17px;
+.date h1:last-child {
+  margin-bottom: -3px;
 }
 
 /*Hero Email Field*/
 
 div.mc-field-group input {
-  width: 245px;
+  width: 237px;
   height: 42px;
   float: left;
-  padding-left: 11px;
+  padding-left: 10px;
   font-family: Arial;
   font-size: 14px;
   color: #999999;
@@ -117,7 +113,7 @@ div.mc-field-group input {
 }
 
 input.button {
-  width: 93px;
+  width: 92px;
   height: 44px;
   font-family: "Akzidenz";
   font-size: 14.5px;
@@ -132,21 +128,23 @@ input.button {
 
 .social-buttons {
   margin-top: 13px;
-  font-size: 14px;
+  font-size: 0;
   text-align: center;
   color: #ffffff;
 }
 
 .facebook-share {
   display: inline-block;
-  margin-right: 6px;
-  padding: 12px 19.5px;
+  margin-right: 10px;
+  padding: 12px 17px;
+  font-size: 14px;
   background: #4c63ea;
 }
 
 .twitter-share {
   display: inline-block;
-  padding: 12px 30px;
+  padding: 12px 27.5px;
+  font-size: 14px;
   background: #46a1ff;
 }
 
@@ -170,6 +168,18 @@ input.button {
   font-family: "AvantGardeGothic";
   font-size: 14px;
   color: #00403f;
+}
+
+.socialgood-logo img {
+  width: 87px;
+}
+
+.klooff-logo img {
+  width: 67px;
+}
+
+.public-logo img {
+  width: 79px;
 }
 
 /*Hangouts*/
@@ -274,21 +284,18 @@ input.button {
 #footer p {
   padding: 8px 0;
   padding-bottom: 25px;
+  /*background: #ffffff;*/ /*REVERT CHANGE WHEN ACTIVE HANGOUTS*/
+}
+
+#footer p, .creative-commons span, .creative-commons a {
   font-family: Arial;
   font-size: 10px;
-  color: #666666;
-  /*background: #ffffff;*/ /*REVERT CHANGE!*/
+  color: #666666;  
 }
 
 .creative-commons {
-  /*background: #ffffff;*/ /*REVERT CHANGE!*/
   padding-top: 18px;
-}
-
-.creative-commons span, .creative-commons a {
-  font-family: Arial;
-  font-size: 10px;
-  color: #666666;
+  /*background: #ffffff;*/ /*REVERT CHANGE WHEN ACTIVE HANGOUTS*/
 }
 
 .creative-commons a:last-child {
