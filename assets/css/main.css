@@ -35,10 +35,10 @@ h1, h2, p {
   color: #00e0b8;
 }
 
-#header p {
-  position: absolute;
+.fb-like {
+  position: absolute!important;
   right: 25px;
-  top: 19px;
+  top: 13px;
   font-family: "AvantGardeGothic";
   font-size: 12px;
   color: #ffffff;
