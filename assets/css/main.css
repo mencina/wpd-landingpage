@@ -16,6 +16,16 @@ h1, h2, p {
   margin: 0;
 }
 
+input {
+  padding: 0;
+  font-size: 14px;
+  border: none;
+  outline: none;
+  border-radius: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-appearance: none;
+}
+
 /*Classes Added Via JS*/
 
 .no-smoothing {
@@ -53,19 +63,24 @@ h1, h2, p {
   padding-bottom: 57px;
 }
 
-.hero-container {
-  max-width: 340px;
+#hero-wrapper {
+  max-width: 360px;
   margin: 0 auto;
 }
+
+.hero-container {
+  margin: 0 10px;
+}
+
+/*Hero Information*/
 
 .hero-container img {
   width: 100%;
 }
 
-/*Hero Information*/
-
-.wpd-information{
-  margin: 19px 0 20px 0;
+.wpd-information {
+  margin-top: 19px;
+  margin-bottom: 20px;
   font-family: "AvantGardeGothic";
   color: #00403f;
 }
@@ -86,12 +101,12 @@ h1, h2, p {
   font-size: 26px;
 }
 
-.tagline h1 {
-  font-size: 19px;
-}
-
 .date h1:last-child {
   margin-bottom: -3px;
+}
+
+.tagline h1 {
+  font-size: 19px;
 }
 
 /*Hero Email Field*/
@@ -100,53 +115,46 @@ div.mc-field-group input {
   width: 242px;
   height: 44px;
   float: left;
-  padding: 0;
   padding-left: 10px;
   font-family: Arial;
-  font-size: 14px;
   color: #999999;
-  border: none;
-  outline: none;
-  background: white;
-  -webkit-font-smoothing: antialiased;
-  border-radius:0;
+  background: #ffffff;
 }
 
 input.button {
   width: 88px;
   height: 44px;
-  padding: 0;
   font-family: "Akzidenz";
-  font-size: 14.5px;
   color: #ffffff;
-  border: none;
-  outline: none;
   background: #ff6943;
-  -webkit-font-smoothing: antialiased;
-  -webkit-appearance: none;
-  border-radius:0;
 }
 
-/*Hero Social Buttons*/
+/*Share Buttons*/
+
+.break {
+  display: none;
+}
 
 .social-buttons {
   margin-top: 13px;
   font-size: 0;
-  text-align: center;
   color: #ffffff;
+  text-align: center;
 }
 
 .facebook-share {
   display: inline-block;
+  width: 165px;
+  padding: 12px 0;
   margin-right: 10px;
-  padding: 12px 17px;
   font-size: 14px;
   background: #4c63ea;
 }
 
 .twitter-share {
   display: inline-block;
-  padding: 12px 27.5px;
+  width: 165px;
+  padding: 12px 0;
   font-size: 14px;
   background: #46a1ff;
 }
@@ -166,7 +174,7 @@ input.button {
 
 #organizers p {
   display: inline-block;
-  margin-right: 35px;
+  margin: 0 35px;
   vertical-align: 23px;
   font-family: "AvantGardeGothic";
   font-size: 14px;
@@ -282,6 +290,7 @@ input.button {
 
 #footer {
   text-align: center;
+  padding: 0 5px;
 }
 
 #footer p {

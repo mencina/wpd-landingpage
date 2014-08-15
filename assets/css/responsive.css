@@ -1,3 +1,67 @@
+@media screen and (max-width: 360px) {
+
+  /*Hero Container*/
+
+  #hero {
+    padding-top: 70px;
+    padding-bottom: 25px;
+  }
+
+  /*Hero Information*/
+
+  .wpd-information {
+    margin-bottom: 30px;
+  }
+
+  .date {
+    margin-left: 15px;
+  }
+
+  /*Email Field*/
+
+  div.mc-field-group {
+    margin: 0 4px;
+  }
+
+  div.clear {
+    margin: 0 4px;
+  }
+
+  div.mc-field-group input {
+    float: none;
+    padding-left: 0;
+    width: 100%;
+    text-align: center;
+  }
+
+  input.button {
+    width: 100%;
+    margin-top: 5px;
+  }
+
+  /*Share Buttons*/
+
+  .break {
+    display: inline;
+  }
+
+  .social-buttons {
+    margin-left: 4px;
+    margin-right: 4px;
+  }
+
+  .facebook-share {
+    margin-right: 0;
+    width: 50%;
+    padding: 10px 0;
+  }
+
+  .twitter-share {
+    width: 50%;
+    padding: 10px 0;
+  }
+}
+
 @media screen and (max-width: 480px) {
 
 /*Organizing Partners*/
@@ -9,21 +73,16 @@
   #organizers p {
     display: block;
     padding-top: 20px;
-    margin-right: 0!important;  
+    margin: 0;  
   }
 
   #organizers img {
-    margin-right: 20px;
+    margin-right: 7%;
   }
 
   .public-logo img {
     margin-right: 0!important;
   }
-
-}
-
-@media screen and (max-width: 660px) {
-
 }
 
 @media screen and (max-width: 760px) {
@@ -38,5 +97,4 @@
     padding-top: 26px;
     padding-right: 12px;
   }
-
 }
