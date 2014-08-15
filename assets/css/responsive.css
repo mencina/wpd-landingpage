@@ -4,7 +4,7 @@
 
   #hero {
     padding-top: 70px;
-    padding-bottom: 25px;
+    padding-bottom: 45px;
   }
 
   /*Hero Information*/
@@ -36,7 +36,7 @@
 
   input.button {
     width: 100%;
-    margin-top: 5px;
+    margin-top: 7.5px;
   }
 
   /*Share Buttons*/
@@ -48,6 +48,7 @@
   .social-buttons {
     margin-left: 4px;
     margin-right: 4px;
+    margin-top: 18px;
   }
 
   .facebook-share {

@@ -127,6 +127,11 @@ input.button {
   font-family: "Akzidenz";
   color: #ffffff;
   background: #ff6943;
+  transition: background 0.4s;
+}
+
+input.button:hover {
+  background: #ff704d;
 }
 
 /*Share Buttons*/
@@ -149,6 +154,11 @@ input.button {
   margin-right: 10px;
   font-size: 14px;
   background: #4c63ea;
+  transition: background 0.4s;
+}
+
+.facebook-share:hover {
+  background: #4f68f7;
 }
 
 .twitter-share {
@@ -157,6 +167,11 @@ input.button {
   padding: 12px 0;
   font-size: 14px;
   background: #46a1ff;
+  transition: background 0.4s;
+}
+
+.twitter-share:hover {
+  background: #52a8ff;
 }
 
 /*Organizers*/
