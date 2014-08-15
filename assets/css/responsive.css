@@ -1,0 +1,42 @@
+@media screen and (max-width: 480px) {
+
+/*Organizing Partners*/
+
+  #organizers {
+    padding: 0 10px;
+  }
+
+  #organizers p {
+    display: block;
+    padding-top: 20px;
+    margin-right: 0!important;  
+  }
+
+  #organizers img {
+    margin-right: 20px;
+  }
+
+  .public-logo img {
+    margin-right: 0!important;
+  }
+
+}
+
+@media screen and (max-width: 660px) {
+
+}
+
+@media screen and (max-width: 760px) {
+
+/*Header*/
+
+  .facebook-like {
+    position: relative!important;
+    right: 0;
+    top: 0;
+    float: right;
+    padding-top: 26px;
+    padding-right: 12px;
+  }
+
+}
