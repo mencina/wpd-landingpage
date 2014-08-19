@@ -99,9 +99,6 @@ input {
 
 .date h1 {
   font-size: 26px;
-}
-
-.date h1:last-child {
   margin-bottom: -3px;
 }
 
@@ -212,26 +209,38 @@ input.button:hover {
 
 #hangouts {
   text-align: center;
-  font-size: 0; /*fix inline-block margins*/
+  font-size: 0;
   color: #ffffff;
 }
 
 #hangouts > h1 {
-  padding: 18px 0px 20px 0px;
+  padding: 18px 10px 20px 10px;
   font-size: 17px;
   color: #333333;
 }
 
 #katherine-heigl {
-  background: #ea00bd;
+  background: #e900bd;
 }
 
 #rachel-ray {
-  background: #caa500;
+  background: #cd9e00;
 }
 
 #wendy-diamond {
   background: #ff6971;
+}
+
+#jay-z {
+  background: #ff7300;
+}
+
+#beyonce {
+  background: #ff4600;
+}
+
+#ryan-gosling {
+  background: #729c14;
 }
 
 /*Ambassador*/
@@ -249,7 +258,7 @@ input.button:hover {
 }
 
 .ambassador h1, .ambassador h2, .ambassador p {
-  padding: 0 15px 0 11px;
+  padding: 0 15px 0 0;
   font-family: "AkzidenzNormal";
   font-size: 14px;
 }
@@ -260,7 +269,8 @@ input.button:hover {
 }
 
 .ambassador p {
-  margin: 8px 0 15px 0;
+  display: flex;
+  margin: 8px 0 25px 0;
 }
 
 /*Hangout Button*/
@@ -270,12 +280,18 @@ input.button:hover {
   margin: 0 auto;
   margin-top: 26px;
   margin-bottom: 28px;
-  width: 341px;
+  width: 340px;
   padding: 2.5px 0;
   background: #f63324;
+  color: #ffffff;
+}
+
+.hangout-info {
+  display: inline-block;
 }
 
 .hangout-button h1 {
+  display: inline-block;
   vertical-align: 30%;
   padding-left: 10px;
   padding-right: 6px;
@@ -284,12 +300,14 @@ input.button:hover {
 }
 
 .hangout-button h2 {
+  display: inline-block;
   font-family: "AkzidenzNormal";
   font-size: 32px;
   font-weight: normal;
 }
 
 .hangout-button p {
+  display: inline-block;
   vertical-align: 30%;
   padding-left: 6px;
   border-left: 1px solid #ffffff;
@@ -297,21 +315,20 @@ input.button:hover {
   font-size: 14px;
 }
 
-.hangout-button p, .hangout-button h1, .hangout-button h2 {
-  display: inline-block;
+#hangout-line {
+  display: none;
 }
 
 /*Footer*/
 
 #footer {
   text-align: center;
-  padding: 0 5px;
 }
 
 #footer p {
-  padding: 8px 0;
+  padding: 8px 5px;
   padding-bottom: 25px;
-  /*background: #ffffff;*/ /*REVERT CHANGE WHEN ACTIVE HANGOUTS*/
+  background: #ffffff; 
 }
 
 #footer p, .creative-commons span, .creative-commons a {
@@ -321,8 +338,8 @@ input.button:hover {
 }
 
 .creative-commons {
-  padding-top: 18px;
-  /*background: #ffffff;*/ /*REVERT CHANGE WHEN ACTIVE HANGOUTS*/
+  padding: 18px 5px 0 5px;
+  background: #ffffff;
 }
 
 .creative-commons a:last-child {
