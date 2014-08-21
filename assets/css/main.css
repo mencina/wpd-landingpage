@@ -26,12 +26,6 @@ input {
   -webkit-appearance: none;
 }
 
-/*Classes Added Via JS*/
-
-.no-smoothing {
-  -webkit-font-smoothing: auto!important;
-}
-
 /*Header*/
 
 #header {
@@ -122,6 +116,7 @@ input.button {
   width: 88px;
   height: 44px;
   font-family: "Akzidenz";
+  font-weight: bold;
   color: #ffffff;
   background: #ff6943;
   transition: background 0.4s;
@@ -150,6 +145,7 @@ input.button:hover {
   padding: 12px 0;
   margin-right: 10px;
   font-size: 14px;
+  font-weight: bold;
   background: #4c63ea;
   transition: background 0.4s;
 }
@@ -163,6 +159,7 @@ input.button:hover {
   width: 165px;
   padding: 12px 0;
   font-size: 14px;
+  font-weight: bold;
   background: #46a1ff;
   transition: background 0.4s;
 }
@@ -351,6 +348,7 @@ input.button:hover {
   margin-top: 18px;
   margin-bottom: 18px;
   font-size: 14px;
+  font-weight: bold;
 }
 
 .donate-images {
@@ -375,6 +373,7 @@ input.button:hover {
   font-size: 30px;
   letter-spacing: -2px;
   color: #ffffff;
+  font-weight: bold;
 
 }
 
