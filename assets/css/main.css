@@ -220,11 +220,11 @@ input.button:hover {
 }
 
 #katherine-heigl {
-  background: #e900bd;
+  background: #ea00bd;
 }
 
 #rachel-ray {
-  background: #cd9e00;
+  background: #c9a400;
 }
 
 #wendy-diamond {
@@ -286,6 +286,10 @@ input.button:hover {
   color: #ffffff;
 }
 
+.hangout-button:hover {
+  background: #ff291a;
+}
+
 .hangout-info {
   display: inline-block;
 }
@@ -319,6 +323,61 @@ input.button:hover {
   display: none;
 }
 
+/*Donate*/
+
+#donate {
+  padding-bottom: 50px;
+  background: #ffffff;
+  color: #333333;
+  text-align: center;
+}
+
+#donate h1 {
+  font-size: 35px;
+  letter-spacing: -2px;
+  padding: 0 10px;
+  padding-top: 32px;
+}
+
+#donate h2 {
+  font-size: 18px;
+  margin-top: 5px;
+  margin-bottom: 25px;
+}
+
+#donate p {
+  max-width: 450px;
+  margin: 0 auto;
+  margin-top: 18px;
+  margin-bottom: 18px;
+  font-size: 14px;
+}
+
+.donate-images {
+  font-size: 0;
+}
+
+.donate-images img {
+  width: 90px;
+  margin-right: 11px;
+}
+
+.donate-images img:last-child {
+  margin-right: 0;
+}
+
+.donate-button {
+  display: block;
+  width: 466px;
+  margin: 0 auto;
+  padding: 18px 0;
+  background: #00dfb7;
+  font-size: 30px;
+  letter-spacing: -2px;
+  color: #ffffff;
+
+}
+
 /*Footer*/
 
 #footer {
@@ -328,7 +387,6 @@ input.button:hover {
 #footer p {
   padding: 8px 5px;
   padding-bottom: 25px;
-  background: #ffffff; 
 }
 
 #footer p, .creative-commons span, .creative-commons a {
@@ -339,7 +397,6 @@ input.button:hover {
 
 .creative-commons {
   padding: 18px 5px 0 5px;
-  background: #ffffff;
 }
 
 .creative-commons a:last-child {

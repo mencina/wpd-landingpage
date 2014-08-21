@@ -23,6 +23,7 @@ Tablets
     padding-top: 26px;
     padding-right: 12px;
   }
+}
 
 @media screen and (max-width: 700px) {
 
@@ -48,6 +49,12 @@ All Phones
 ***********************************************************/
 
 @media screen and (max-width: 480px) {
+
+  /*Hero*/
+
+  #hero {
+    padding-top: 70px;
+  }
 
   /*Organizing Partners*/
 
@@ -108,6 +115,31 @@ All Phones
 
   #hangout-line {
     display: inline;
+  }
+
+  /*Donations*/
+
+  .donate-wrapper {
+    margin: 0 10px;
+  }
+
+  .donate-button {
+    width: 100%;
+    letter-spacing: -1.5px;
+  }
+
+  .donate-images img {
+    width: 21%;
+    margin-right: 3%;
+  }
+
+  .donate-images img:last-child {
+  margin-right: 0;
+  }
+
+  #donate h1 {
+    font-size: 28px;
+    letter-spacing: -1px;
   }
 }
 
@@ -181,6 +213,12 @@ iPhone
 
   .ambassador p {
     padding-left: 102px;
+  }
+
+  /*Donations*/
+
+  .donate-button {
+    font-size: 26px;
   }
 }
 
